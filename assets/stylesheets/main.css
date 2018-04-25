@@ -1,0 +1,158 @@
+@media screen and (min-width: 768px) {
+
+  .intro {
+    width: 85%;
+    height: 100vh;
+    margin-left: 15%;
+    display: flex;
+    background-image:url('../images/night_sky.jpg');
+    background-size: cover;
+    background-color: #55bfff;
+    background-blend-mode: luminosity;
+  }
+
+  .intro-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+  }
+
+  .sidebar-container {
+    width: 15%;
+    height: 100vh;
+    display: inline-block;
+    position: fixed;
+  }
+
+  .sidebar {
+    height: 100%;
+    background: #2e39c7;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: 3em;
+  }
+
+  .name {
+    font-size: 5em;
+  }
+
+  .about {
+    margin-left: 15%;
+    width: 85%;
+  }
+
+  .self-image {
+    justify-content: center;
+    display: flex;
+    background: #232e42;
+  }
+
+  .selfie {
+    width: 375px;
+  }
+
+  .about-inner-container {
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 767px) {
+	.intro {
+		display: inline-block;
+    width: 100%;
+    height: 100vh;
+    background-image:url('../images/night_sky.jpg');
+    background-size: cover;
+    background-color: #55bfff;
+    background-blend-mode: luminosity;
+	}
+
+  .sidebar-container {
+    width: 100%;
+    height: 10vh;
+    display: inline-block;
+    position: fixed;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: 100%;
+    background: #2e39c7;
+    display: flex;
+    position: absolute;
+  }
+
+  .title {
+    font-size: 1em;
+  }
+
+  .intro-container {
+    display: flex;
+    width: 100%;
+    height: 85vh;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+  }
+
+  .name {
+    font-size: 2em;
+  }
+
+  .about-container {
+    width: 100%;
+  }
+
+  .self-image {
+    width: 100%;
+  }
+
+  .selfie {
+    width: 100%;
+  }
+}
+.selfie {
+  background-image: url('../images/lkcheng.jpg');
+}
+
+.side-tag {
+  color: white;
+}
+
+.about {
+  height: 100vh;
+}
+
+.title {
+  color: black;
+}
+
+.name {
+  color: #e4e4e4;
+  margin-bottom: 1em;
+  letter-spacing: 0.1em;
+}
+
+
+.about-container {
+  height: 100vh;
+}
+
+.self-image {
+  height: 50vh;
+}
+
+.selfie {
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -25px;
+}
